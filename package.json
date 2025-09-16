@@ -1,0 +1,21 @@
+{
+  "name": "fulll-fizzbuzz",
+  "version": "0.1.0",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "check": "biome check src/",
+    "check:fix": "biome check --write src/",
+    "test": "tsx src/*.test.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.4",
+    "@types/node": "^20.19.15",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
